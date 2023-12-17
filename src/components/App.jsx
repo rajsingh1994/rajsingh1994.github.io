@@ -48,7 +48,7 @@ export default function App() {
       <BrowserRouter>
         <Navbar/>
         <Routes>
-          <Route path='/' element={<Home/>}/>
+          <Route path='/' exact element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/shop/:mc/:sc/:br' element={<Shop/>}/>
           <Route path='/single-product/:id' element={<SingleProduct/>}/>
