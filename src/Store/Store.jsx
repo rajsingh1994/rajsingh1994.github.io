@@ -6,8 +6,8 @@ import RootSaga from "./Sagas/RootSaga"
 
 const sagaMiddleware = CreateSagaMiddleware()
 const Store = configureStore({
-    reducer:RootReducer,
-    middleware:()=>[sagaMiddleware]
+  reducer:RootReducer,
+  middleware:()=>[sagaMiddleware]
 })
 export default Store
 

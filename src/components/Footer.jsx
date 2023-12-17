@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import React, { useEffect, useState } from "react"
+import { Link } from "react-router-dom"
 
 import { createNewslatter, getNewslatter } from "../Store/ActionCreators/NewslatterActionCreators"
-import { useDispatch, useSelector } from 'react-redux'
+import { useDispatch, useSelector } from "react-redux"
 export default function Footer() {
   var [email, setEmail] = useState("")
   var allNewslatterData = useSelector((state) => state.NewslatterStateData)
@@ -12,9 +12,9 @@ export default function Footer() {
     var item = allNewslatterData.slice(1).find((item) => item.email === email)
     if (item)
       alert("Your Email Id is Already Subscribe!!!")
-      else {
-        dispatch(createNewslatter({ email: email }))
-        alert("Thanks to Subscribe Your Newslatter Service!!!")
+    else {
+      dispatch(createNewslatter({ email: email }))
+      alert("Thanks to Subscribe Your Newslatter Service!!!")
     }
   }
   function getAPIData() {

@@ -12,13 +12,13 @@ import ContactReducer from "./ContactReducer";
 
 
 export default combineReducers({
-    MaincategoryStateData : MaincategoryReducer,
-    SubcategoryStateData : SubcategoryReducer,
-    BrandStateData : BrandReducer, 
-    ProductStateData : ProductReducer,
-    CartStateData : CartReducer,
-    WishlistStateData : WishlistReducer,
-    NewslatterStateData : NewslatterReducer,
-    CheckoutStateData : CheckoutReducer,
-    ContactStateData : ContactReducer,
+  MaincategoryStateData : MaincategoryReducer,
+  SubcategoryStateData : SubcategoryReducer,
+  BrandStateData : BrandReducer, 
+  ProductStateData : ProductReducer,
+  CartStateData : CartReducer,
+  WishlistStateData : WishlistReducer,
+  NewslatterStateData : NewslatterReducer,
+  CheckoutStateData : CheckoutReducer,
+  ContactStateData : ContactReducer,
 })

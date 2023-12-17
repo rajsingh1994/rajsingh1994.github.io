@@ -11,15 +11,15 @@ import wishlistSaga from "./WishlistSagas"
 import contactSaga from "./ContactSagas"
 
 export default function* RootSaga(){
-    yield all([
-        maincategorySaga(),
-        subcategorySaga(),
-        brandSaga(),
-        productSaga(),
-        cartSaga(),
-        checkoutSaga(),
-        newslatterSaga(),
-        wishlistSaga(),
-        contactSaga(),
-    ])
+  yield all([
+    maincategorySaga(),
+    subcategorySaga(),
+    brandSaga(),
+    productSaga(),
+    cartSaga(),
+    checkoutSaga(),
+    newslatterSaga(),
+    wishlistSaga(),
+    contactSaga(),
+  ])
 }
