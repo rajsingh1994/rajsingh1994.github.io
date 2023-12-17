@@ -1,0 +1,743 @@
+{
+  "maincategory": [
+    {
+      "id": 0
+    },
+    {
+      "name": "male",
+      "id": 1
+    },
+    {
+      "name": "female",
+      "id": 2
+    },
+    {
+      "name": "kids",
+      "id": 3
+    },
+    {
+      "name": "Girls",
+      "id": 4
+    },
+    {
+      "name": "Boys",
+      "id": 5
+    }
+  ],
+  "subcategory": [
+    {
+      "id": 0
+    },
+    {
+      "name": "saree",
+      "id": 1
+    },
+    {
+      "name": "brider",
+      "id": 2
+    },
+    {
+      "name": "t-shirt",
+      "id": 3
+    },
+    {
+      "name": "frock",
+      "id": 4
+    },
+    {
+      "name": "shirt",
+      "id": 5
+    },
+    {
+      "name": "jacket",
+      "id": 6
+    },
+    {
+      "name": "salwar",
+      "id": 7
+    },
+    {
+      "name": "coat",
+      "id": 8
+    }
+  ],
+  "brand": [
+    {
+      "id": 0
+    },
+    {
+      "name": "adidas",
+      "pic": "logo-2.png",
+      "id": 1
+    },
+    {
+      "name": "ck",
+      "pic": "logo-5.png",
+      "id": 2
+    },
+    {
+      "name": "Holister",
+      "pic": "logo-4.png",
+      "id": 3
+    },
+    {
+      "name": "Salsa",
+      "pic": "logo-10.png",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "name": "American",
+      "pic": "logo-9.png"
+    }
+  ],
+  "user": [
+    {
+      "id": 0
+    },
+    {
+      "name": "Raj Singh",
+      "username": "raj",
+      "email": "rajsingh75593@gmail.com",
+      "phone": "7559311530",
+      "password": "raj",
+      "role": "Admin",
+      "id": 1,
+      "address": "b-734 new Ashok Nagar",
+      "pin": "110096",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "pic": "IMG_20210210_205805.jpg"
+    },
+    {
+      "name": "Ramesh Singh",
+      "username": "ramesh",
+      "email": "rameshsingh75593@gmail.com",
+      "phone": "9794346299",
+      "password": "ramesh",
+      "role": "Buyer",
+      "id": 2,
+      "pic": "formal-shirt-4.jpg",
+      "address": "B-734, New Ashok Nagar, New Delhi",
+      "pin": "11018",
+      "city": "Delhi",
+      "state": "Delhi"
+    },
+    {
+      "name": "sanjay",
+      "username": "sanjay",
+      "email": "sanjaysingh75593@gmail.com",
+      "phone": "9875463258",
+      "password": "san",
+      "role": "Admin",
+      "id": 3
+    }
+  ],
+  "product": [
+    {
+      "id": 0
+    },
+    {
+      "id": 1,
+      "name": "Coat-Paint",
+      "maincategory": "male",
+      "subcategory": "Full-Body",
+      "brand": "Star",
+      "color": "megenta",
+      "size": "xl",
+      "baseprice": "3000",
+      "discount": "10",
+      "finalprice": 2700,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "suit-5.jpg",
+      "pic2": "suit-7.jpg",
+      "pic3": "suit-5.jpg",
+      "pic4": "suit-4.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Brider-New",
+      "maincategory": "female",
+      "subcategory": "brider",
+      "brand": "Salsa",
+      "color": "green",
+      "size": "90",
+      "baseprice": "15000",
+      "discount": "30",
+      "finalprice": 10500,
+      "stock": "In Stock",
+      "description": "top ten brand in our products",
+      "pic1": "Brider-8.jpg",
+      "pic2": "Brider-6.jpg",
+      "pic3": "Brider-4.jpg",
+      "pic4": "Brider-3.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Brider",
+      "maincategory": "female",
+      "subcategory": "brider",
+      "brand": "Salsa",
+      "color": "four-color",
+      "size": "38",
+      "baseprice": "12000",
+      "discount": "20",
+      "finalprice": 9600,
+      "stock": "In Stock",
+      "description": "This is Sample Product of brider",
+      "pic1": "Brider-9.jpg",
+      "pic2": "Brider-4.jpg",
+      "pic3": "Brider-5.jpg",
+      "pic4": "Brider-7.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Saree",
+      "maincategory": "female",
+      "subcategory": "saree",
+      "brand": "Holister",
+      "color": "four-color",
+      "size": "120",
+      "baseprice": "6000",
+      "discount": "10",
+      "finalprice": 5400,
+      "stock": "In Stock",
+      "description": "Good for female",
+      "pic1": "saree-4.jpg",
+      "pic2": "saree-5.jpg",
+      "pic3": "saree-3.jpg",
+      "pic4": "saree-2.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Frock",
+      "maincategory": "kids",
+      "subcategory": "frock",
+      "brand": "Shree-Ram",
+      "color": "white",
+      "size": "38",
+      "baseprice": "1600",
+      "discount": "10",
+      "finalprice": 1440,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "frock-7.jpg",
+      "pic2": "frock-10.jpg",
+      "pic3": "frock-8.jpg",
+      "pic4": "langha-1.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Jacket",
+      "maincategory": "male",
+      "subcategory": "jacket",
+      "brand": "Star",
+      "color": "All- color",
+      "size": "m",
+      "baseprice": "1200",
+      "discount": "5",
+      "finalprice": 1140,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "suit-1.jpg",
+      "pic2": "suit-6.jpg",
+      "pic3": "suit-4.jpg",
+      "pic4": "suit-6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "shirt",
+      "maincategory": "male",
+      "subcategory": "shirt",
+      "brand": "Holister",
+      "color": "gfddd",
+      "size": "65",
+      "baseprice": "800",
+      "discount": "3",
+      "finalprice": 776,
+      "stock": "Out Of Stack",
+      "description": "This is Sample Product",
+      "pic1": "shirt-3.webp",
+      "pic2": "shirt-2.webp",
+      "pic3": "shirt-1.webp",
+      "pic4": "formal-shirt-2.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Shirt",
+      "maincategory": "male",
+      "subcategory": "shirt",
+      "brand": "Salsa",
+      "color": "red/White",
+      "size": "m",
+      "baseprice": "1000",
+      "discount": "5",
+      "finalprice": 950,
+      "stock": "In Stock",
+      "description": "This is Sample Product of shirt",
+      "pic1": "formal-shirt-6.jpg",
+      "pic2": "formal-shirt-1.jpg",
+      "pic3": "formal-shirt-3.jpg",
+      "pic4": "formal-shirt-2.jpg"
+    },
+    {
+      "id": 9,
+      "name": "T-Shirt",
+      "maincategory": "male",
+      "subcategory": "t-shirt",
+      "brand": "American",
+      "color": "white",
+      "size": "M",
+      "baseprice": "500",
+      "discount": "5",
+      "finalprice": 475,
+      "stock": "In Stock",
+      "description": "This is Sample Product of Tshirt",
+      "pic1": "T-shirt-3.jpg",
+      "pic2": "T-shirt-1.jpg",
+      "pic3": "T-shirt-2.jpg",
+      "pic4": "pic5.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Casual-Shirt",
+      "maincategory": "male",
+      "subcategory": "shirt",
+      "brand": "adidas",
+      "color": "blue",
+      "size": "38",
+      "baseprice": "1600",
+      "discount": "16",
+      "finalprice": 1344,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "casual-shirt-2.jpg",
+      "pic2": "casual-shirt-3.jpg",
+      "pic3": "casual-shirt-1.jpg",
+      "pic4": "formal-shirt-1.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Frock",
+      "maincategory": "kids",
+      "subcategory": "frock",
+      "brand": "American",
+      "color": "All-color",
+      "size": "SM",
+      "baseprice": "2500",
+      "discount": "25",
+      "finalprice": 1875,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "frock-9.jpg",
+      "pic2": "frock-10.jpg",
+      "pic3": "frock-12.jpg",
+      "pic4": "frock-13.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Top-ten-salwar",
+      "maincategory": "female",
+      "subcategory": "salwar",
+      "brand": "Holister",
+      "color": "All-color",
+      "size": "m",
+      "baseprice": "4500",
+      "discount": "11",
+      "finalprice": 4005,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "salwar-9.jpg",
+      "pic2": "salwar-8.jpg",
+      "pic3": "salwar-6.jpg",
+      "pic4": "salwar-10.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Letest-Frock for girls",
+      "maincategory": "female",
+      "subcategory": "frock",
+      "brand": "Salsa",
+      "color": "four-color",
+      "size": "m",
+      "baseprice": "5500",
+      "discount": "20",
+      "finalprice": 4400,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "frock-3.jpg",
+      "pic2": "frock-2.jpg",
+      "pic3": "frock-4.jpg",
+      "pic4": "frock-5.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Letest-Frock for kids",
+      "maincategory": "kids",
+      "subcategory": "frock",
+      "brand": "American",
+      "color": "four-color",
+      "size": "M",
+      "baseprice": "1500",
+      "discount": "15",
+      "finalprice": 1275,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "frock-10.jpg",
+      "pic2": "frock-12.jpg",
+      "pic3": "frock-13.jpg",
+      "pic4": "frock-9.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Top-ten-Salwar",
+      "maincategory": "female",
+      "subcategory": "salwar",
+      "brand": "Holister",
+      "color": "four-color",
+      "size": "M",
+      "baseprice": "65000",
+      "discount": "25",
+      "finalprice": 48750,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "salwar-7.jpg",
+      "pic2": "salwar-3.jpg",
+      "pic3": "salwar-4.jpg",
+      "pic4": "salwar-10.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Top-ten-salwar",
+      "maincategory": "female",
+      "subcategory": "salwar",
+      "brand": "Holister",
+      "color": "Red",
+      "size": "XL",
+      "baseprice": "4800",
+      "discount": "25",
+      "finalprice": 3600,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "salwar-6.jpg",
+      "pic2": "saree-3.jpg",
+      "pic3": "salwar-3.jpg",
+      "pic4": "salwar-2.jpg"
+    },
+    {
+      "name": "Top-ten-salwar",
+      "maincategory": "female",
+      "subcategory": "salwar",
+      "brand": "Holister",
+      "color": "gray",
+      "size": "XLL",
+      "baseprice": "9800",
+      "discount": "13",
+      "finalprice": 8526,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "salwar-7.jpg",
+      "pic2": "salwar-8.jpg",
+      "pic3": "salwar-9.jpg",
+      "pic4": "salwar-10.jpg",
+      "id": 17
+    },
+    {
+      "id": 18,
+      "name": "Top-ten-salwar",
+      "maincategory": "female",
+      "subcategory": "salwar",
+      "brand": "Holister",
+      "color": "red",
+      "size": "XXL",
+      "baseprice": "3600",
+      "discount": "16",
+      "finalprice": 3024,
+      "stock": "In Stock",
+      "description": "This is Sample Product",
+      "pic1": "salwar-6.jpg",
+      "pic2": "saree-5.jpg",
+      "pic3": "salwar-3.jpg",
+      "pic4": "salwar.jpg"
+    }
+  ],
+  "cart": [
+    {
+      "id": 0
+    },
+    {
+      "userid": "1",
+      "productid": 17,
+      "name": "Top-ten-salwar",
+      "brand": "Holister",
+      "color": "gray",
+      "size": "XLL",
+      "pic": "salwar-7.jpg",
+      "price": 8526,
+      "qty": 1,
+      "total": 8526,
+      "id": 2
+    },
+    {
+      "userid": "1",
+      "productid": 18,
+      "name": "Top-ten-salwar",
+      "brand": "Holister",
+      "color": "red",
+      "size": "XXL",
+      "pic": "salwar-6.jpg",
+      "price": 3024,
+      "qty": 1,
+      "total": 3024,
+      "id": 3
+    }
+  ],
+  "wishlist": [
+    {
+      "id": 0
+    },
+    {
+      "userid": "1",
+      "productid": 8,
+      "name": "Shirt",
+      "brand": "Salsa",
+      "color": "red/White",
+      "size": "m",
+      "pic": "formal-shirt-6.jpg",
+      "price": 950,
+      "id": 2
+    },
+    {
+      "userid": "1",
+      "productid": 18,
+      "name": "Top-ten-salwar",
+      "brand": "Holister",
+      "color": "red",
+      "size": "XXL",
+      "pic": "salwar-6.jpg",
+      "price": 3024,
+      "id": 3
+    },
+    {
+      "userid": "1",
+      "productid": 11,
+      "name": "Frock",
+      "brand": "American",
+      "color": "All-color",
+      "size": "SM",
+      "pic": "frock-9.jpg",
+      "price": 1875,
+      "id": 4
+    },
+    {
+      "userid": "1",
+      "productid": 16,
+      "name": "Top-ten-salwar",
+      "brand": "Holister",
+      "color": "Red",
+      "size": "XL",
+      "pic": "salwar-6.jpg",
+      "price": 3600,
+      "id": 8
+    }
+  ],
+  "checkout": [
+    {
+      "id": 0
+    },
+    {
+      "userid": "1",
+      "paymentmode": "COD",
+      "paymentstatus": "Done",
+      "subtotal": 12825,
+      "shipping": 0,
+      "total": 12825,
+      "products": [
+        {
+          "userid": "1",
+          "productid": 18,
+          "name": "Top-ten-salwar",
+          "brand": "Holister",
+          "color": "red",
+          "size": "XXL",
+          "pic": "salwar-6.jpg",
+          "price": 3024,
+          "qty": 1,
+          "total": 3024,
+          "id": 1
+        },
+        {
+          "userid": "1",
+          "productid": 17,
+          "name": "Top-ten-salwar",
+          "brand": "Holister",
+          "color": "gray",
+          "size": "XLL",
+          "pic": "salwar-7.jpg",
+          "price": 8526,
+          "qty": 1,
+          "total": 8526,
+          "id": 2
+        },
+        {
+          "userid": "1",
+          "productid": 14,
+          "name": "Letest-Frock for kids",
+          "brand": "American",
+          "color": "four-color",
+          "size": "M",
+          "pic": "frock-10.jpg",
+          "price": 1275,
+          "qty": 1,
+          "total": 1275,
+          "id": 3
+        }
+      ],
+      "date": "24/07/2023",
+      "id": 1,
+      "status": "Done",
+      "orderstatus": "Delivered"
+    },
+    {
+      "userid": "2",
+      "paymentmode": "COD",
+      "paymentstatus": "Pending",
+      "orderstatus": "order is Placed",
+      "subtotal": 1344,
+      "shipping": 0,
+      "total": 1344,
+      "products": [
+        {
+          "userid": "2",
+          "productid": 10,
+          "name": "Casual-Shirt",
+          "brand": "adidas",
+          "color": "blue",
+          "size": "38",
+          "pic": "casual-shirt-2.jpg",
+          "price": 1344,
+          "qty": 1,
+          "total": 1344,
+          "id": 1
+        }
+      ],
+      "date": "25/07/2023",
+      "id": 2
+    },
+    {
+      "userid": "2",
+      "paymentmode": "COD",
+      "paymentstatus": "Pending",
+      "orderstatus": "order is Placed",
+      "subtotal": 0,
+      "shipping": 0,
+      "total": 0,
+      "products": [],
+      "date": "25/07/2023",
+      "id": 3
+    },
+    {
+      "userid": "2",
+      "paymentmode": "COD",
+      "paymentstatus": "Done",
+      "orderstatus": "Delivered",
+      "subtotal": 6243,
+      "shipping": 0,
+      "total": 6243,
+      "products": [
+        {
+          "userid": "2",
+          "productid": 18,
+          "name": "Top-ten-salwar",
+          "brand": "Holister",
+          "color": "red",
+          "size": "XXL",
+          "pic": "salwar-6.jpg",
+          "price": 3024,
+          "qty": 1,
+          "total": 3024,
+          "id": 1
+        },
+        {
+          "userid": "2",
+          "productid": 11,
+          "name": "Frock",
+          "brand": "American",
+          "color": "All-color",
+          "size": "SM",
+          "pic": "frock-9.jpg",
+          "price": 1875,
+          "qty": 1,
+          "total": 1875,
+          "id": 2
+        },
+        {
+          "userid": "2",
+          "productid": 10,
+          "name": "Casual-Shirt",
+          "brand": "adidas",
+          "color": "blue",
+          "size": "38",
+          "pic": "casual-shirt-2.jpg",
+          "price": 1344,
+          "qty": 1,
+          "total": 1344,
+          "id": 3
+        }
+      ],
+      "date": "25/07/2023",
+      "id": 4
+    },
+    {
+      "userid": "2",
+      "paymentmode": "Card",
+      "paymentstatus": "Pending",
+      "orderstatus": "order is Placed",
+      "subtotal": 8526,
+      "shipping": 0,
+      "total": 8526,
+      "products": [
+        {
+          "userid": "2",
+          "productid": 17,
+          "name": "Top-ten-salwar",
+          "brand": "Holister",
+          "color": "gray",
+          "size": "XLL",
+          "pic": "salwar-7.jpg",
+          "price": 8526,
+          "qty": 1,
+          "total": 8526,
+          "id": 1
+        }
+      ],
+      "date": "11/11/2023",
+      "id": 5
+    }
+  ],
+  "newslatter": [
+    {
+      "id": 0
+    },
+    {
+      "email": "rajsingh75593@gmail.com",
+      "id": 2
+    }
+  ],
+  "contact": [
+    {
+      "id": 0
+    },
+    {
+      "name": "sanjay",
+      "email": "sanjaysingh@gmail.com",
+      "phone": "9794586847",
+      "subject": "Example",
+      "message": "This is Example of message",
+      "date": "11/11/2023",
+      "status": "Done",
+      "id": 2
+    }
+  ]
+}
